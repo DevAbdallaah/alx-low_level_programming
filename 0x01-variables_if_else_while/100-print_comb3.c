@@ -17,6 +17,7 @@ for (first = 0; first <= 9; first++)
 		putchar(second + '0');
 		putchar(',');
 		putchar(' ');
+		
 	}
 }
 putchar('\n');
