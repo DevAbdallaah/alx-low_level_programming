@@ -4,7 +4,7 @@
  *
  * Return: void.
  */
-void print_alphabet(void)
+void print_alphabet_10(void)
 {
 int i;
 for (i = 'a'; i <= 'z'; i++)
@@ -20,6 +20,10 @@ putchar('\n');
  */
 int main(void)
 {
-print_alphabet();
+int i;
+for (i = 0; i < 10 ; i++)
+{
+print_alphabet_10();
+}
 return (0);
 }
