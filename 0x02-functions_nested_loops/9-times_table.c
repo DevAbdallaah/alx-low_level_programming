@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time table - funtion to print
+ * times_table - funtion to print
  *
  * Return : void
  *
@@ -27,7 +27,7 @@ else
 _putchar(r / 10 + '0');
 _putchar(r % 10 + '0');
 _putchar(',');
-_putchar(' ');	
+_putchar(' ');
 }
 }
 _putchar('\n');
